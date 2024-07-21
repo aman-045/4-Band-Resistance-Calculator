@@ -35,3 +35,7 @@ Resistor color coding is a method of indicating the value of resistors using col
 | Gold    |       | ×0.1            | ±5%         |
 | Silver  |       | ×0.01           | ±10%        |
 | None    |       |                 | ±20%        |
+<br>
+## Demo
+
+![Screenshot of the Resistor Color Code Calculator](demo.png)
