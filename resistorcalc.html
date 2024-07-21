@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Resistor Color Code Calculator</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Resistance Calculator</h1>
+        <h2>4 - Band Resistance Calculator</h2>
+        <p>From color code to resistance</p>
+        <div class="band">
+            <h3>1st Color Band:</h3>
+            <select id="select1">
+                <option value="black">Black - 0</option>
+                <option value="brown">Brown - 1</option>
+                <option value="red">Red - 2</option>
+                <option value="orange">Orange - 3</option>
+                <option value="yellow">Yellow - 4</option>
+                <option value="green">Green - 5</option>
+                <option value="blue">Blue - 6</option>
+                <option value="violet">Violet - 7</option>
+                <option value="gray">Gray - 8</option>
+                <option value="white">White - 9</option>
+            </select>
+        </div>
+        <div class="band">
+            <h3>2nd Color Band:</h3>
+            <select id="select2">
+                <option value="black">Black - 0</option>
+                <option value="brown">Brown - 1</option>
+                <option value="red">Red - 2</option>
+                <option value="orange">Orange - 3</option>
+                <option value="yellow">Yellow - 4</option>
+                <option value="green">Green - 5</option>
+                <option value="blue">Blue - 6</option>
+                <option value="violet">Violet - 7</option>
+                <option value="gray">Gray - 8</option>
+                <option value="white">White - 9</option>
+            </select>
+        </div>
+        <div class="band">
+            <h3>3rd Color Band:</h3>
+            <select id="select3">
+                <option value="black">Black - ×1</option>
+                <option value="brown">Brown - ×10</option>
+                <option value="red">Red - ×100</option>
+                <option value="orange">Orange - ×1k</option>
+                <option value="yellow">Yellow - ×10k</option>
+                <option value="green">Green - ×100k</option>
+                <option value="blue">Blue - ×1M</option>
+                <option value="violet">Violet - ×10M</option>
+                <option value="gray">Gray - ×100M</option>
+                <option value="white">White - ×1G</option>
+            </select>
+        </div>
+        <div class="band">
+            <h3>4th Color Band:</h3>
+            <select id="select4">
+                <option value="black">Black - 0</option>
+                <option value="brown">Brown - ±1%</option>
+                <option value="red">Red - ±2%</option>
+                <option value="orange">Orange - 3</option>
+                <option value="yellow">Yellow - 4</option>
+                <option value="green">Green - 5</option>
+                <option value="blue">Blue - 6</option>
+                <option value="violet">Violet - 7</option>
+                <option value="gray">Gray - 8</option>
+                <option value="white">White - 9</option>
+            </select>
+        </div>
+        <button onclick="calcResistance()">Calculate</button>
+        <div id="result"></div>
+    </div>
+    
+</body>
+<script src="script.js">
+    
+</script>
+</html>
